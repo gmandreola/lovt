@@ -41,6 +41,18 @@ body {
     color: #777777
 }
 
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px auto;
+    width: 608px;
+    height: 259px;
+    background-image: url(./img/Rectangle3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .footer {
     display: flex;
     flex-direction: row;
@@ -49,8 +61,9 @@ body {
     height: 243px;
     background: #333333;
 }
-
-.footer div contacts {
-    font-size: 12px;
-    text-decoration: underline;
+.footer div map {
+  width: 252px;
+  height: 163px;
+  border-radius: 19px;
 }
+
