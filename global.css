@@ -53,17 +53,225 @@ body {
     background-size: cover;
 }
 
-.footer {
+.arrow-right {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 39px;
+    height: 39px;
+    background: rgba(141, 141, 141, 0.62);
+    margin-left: 15px;
+  }
+
+  .arrow-left {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 39px;
+    height: 39px;
+    background: rgba(141, 141, 141, 0.62);
+    margin-right: 15px;
+  }
+
+.cards {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 608px;
+    height: 400px;
+
+}
+
+.cards img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.cards h1 {
+    color: #888888
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 256px;
+    height: 300px;
+    background-color: #eeeeee;
+  }
+
+.card2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 256px;
+    height: 300px;
+    background-color: #eeeeee;
+  }
+
+.valorCard1 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
     justify-content: space-around;
+}
+
+.valorCard2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.valorCard1 span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 21px;
+    background-color: #51d275;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 90px;
+}
+
+.valorCard2 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 21px;
+  background-color: #dc9730;
+  color: #fff;
+  border-radius: 20px;
+  margin-left: 90px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.title h1 {
+    width: 266px;
+    height: 33px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #888888;
+}
+
+.styles-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Scard1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    width: 608px;
+    height: 80px;
+    background-image: url(./img/industrial.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.Scard2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    width: 608px;
+    height: 80px;
+    background-image: url(./img/modern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.Scard3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    width: 608px;
+    height: 80px;
+    background-image: url(./img/classic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.styles-cards span {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 208px;
+    height: 44px;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
     height: 243px;
     background: #333333;
 }
-.footer div map {
+
+.map {
   width: 252px;
   height: 163px;
   border-radius: 19px;
 }
+
+.contact div {
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+  line-height: 13px;
+  text-align: justify;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.midias-sociais{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
 
